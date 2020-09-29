@@ -1,0 +1,83 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #a5ecd7;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.form {
+  font-size: 2rem;
+  width: 15em;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: white;
+  border-radius: 1em;
+  border: .3em solid #51adcf;
+  padding: 1em 5em;
+  margin: 2em auto;
+  line-height: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.label{
+  color: #575757;
+  font-size: 0.7em;
+  margin-top: 1em;
+  line-height: 1.5em;
+  text-align: left;
+  padding: 0 1em;
+}
+
+.input{
+  height: 1.5em;
+  border-radius: 0.5em;
+  border: .2em solid #575757;
+  outline: none;
+}
+
+.input:focus{
+  box-shadow: 0 0 .2em .1em #51adcf;
+}
+
+.error-input-field{
+  border-color: indianred;
+}
+
+.error-input-field:focus{
+  border-color: indianred;
+  outline: none;
+  box-shadow: 0 0 .2em .1em red;
+}
+
+.error-message {
+  color: indianred;
+  font-size: 0.6em;
+  line-height: 1.5em;
+  text-align: left;
+  padding: 0 1em;
+}
+
+.success-message {
+  margin-top: 1em;
+  color: seagreen;
+}
+
+.submitButton{
+  background-color: #51adcf;
+  line-height: 1.5em;
+  width: 11em;
+  border-radius: 0.5em;
+  border: .2em solid #575757;
+  outline: none;
+  transition: all ease-in-out .3s;
+}
+
+.submitButton:hover{
+  background-color: #a5ecd7;
+  cursor: pointer;
+}
